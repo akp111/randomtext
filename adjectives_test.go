@@ -5,7 +5,7 @@ import (
 )
 
 func TestAdjectiveGenerator(t *testing.T) {
-	randomAdjective := Adjactive();
+	randomAdjective := Adjective();
 	if(randomAdjective == ""){
 		t.Fatalf("Random adjaective cannot be empty")
 	}

@@ -1,28 +1,25 @@
 package randomtext
 
-import "errors"
+import (
+	"errors"
+	"strings"
+)
 
 func RandomWord(length uint, separator string) (string, error) {
 	if length == 0 {
 		return "", errors.New("length cannot be 0")
 	}
-	var randomWords = ""
+
+	var words []string
 	for i := 0; i < int(length); i++ {
 		if i%2 == 0 {
-			if i == int(length)-1 {
-				randomWords = randomWords + Noun()
-			} else {
-				randomWords = randomWords + Noun() + separator
-			}
-
+			words = append(words, Noun())
 		} else {
-			if i == int(length)-1 {
-				randomWords = randomWords + Adjactive()
-			} else {
-				randomWords = randomWords + Adjactive() + separator
-			}
+			words = append(words, Adjective())
 		}
 	}
-	return randomWords, nil
 
+	randomWords := strings.Join(words, separator)
+	return randomWords, nil
 }
+
