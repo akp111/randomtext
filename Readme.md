@@ -7,6 +7,7 @@ A go library that helps you generate:
 4. A random last name
 5. A random full name
 6. A radom word of custom length and delimiter
+7. A random animal name
 
 ## For a quickie, please see the below example
 
