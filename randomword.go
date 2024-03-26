@@ -25,7 +25,7 @@ func RandomWord(length uint, separator string) (string, error) {
 		}
 	}
 
-	randomWords := strings.Join(words, separator)
+	randomWords :=  strings.Join(words, separator)
 	return randomWords, nil
 }
 

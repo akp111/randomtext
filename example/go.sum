@@ -2,3 +2,5 @@ github.com/akp111/randomtext v0.0.1 h1:0v9bBPoCj3ZFk6FXYwQMIRC8Ac576wfHrlO3yZqHx
 github.com/akp111/randomtext v0.0.1/go.mod h1:IfDg081XtlwBQN7bVPfRW+MEW/IrXohrLQ7+ps8Z5V4=
 github.com/akp111/randomtext v0.1.0 h1:A6/jbjr/1CG8tOZm7osZQ444OUoX35wtu0VjzKCTn8A=
 github.com/akp111/randomtext v0.1.0/go.mod h1:IfDg081XtlwBQN7bVPfRW+MEW/IrXohrLQ7+ps8Z5V4=
+github.com/akp111/randomtext v0.1.1 h1:SNfj0ETELxM0J0iZaBVx9hIywDsaybNgCY9crAXobm0=
+github.com/akp111/randomtext v0.1.1/go.mod h1:IfDg081XtlwBQN7bVPfRW+MEW/IrXohrLQ7+ps8Z5V4=
