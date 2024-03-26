@@ -1,6 +1,6 @@
 # randomtext
 
-[![Go Reference](https://pkg.go.dev/badge/github.com/akp111/randomtext/tree/v1.0.0.svg)](https://pkg.go.dev/github.com/akp111/randomtext/tree/v1.0.0)
+[![Go Reference](https://pkg.go.dev/badge/github.com/akp111/randomtext.svg)](https://pkg.go.dev/github.com/akp111/randomtext)
 
 A go library that helps you generate:
 1. A random adjective
