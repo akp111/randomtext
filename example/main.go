@@ -8,7 +8,7 @@ import (
 
 func main(){
 	// Generate random adjectives
-	randomAdjactive := randomtext.Adjactive()
+	randomAdjactive := randomtext.Adjective()
 	fmt.Printf("Random adjactive: %v\n", randomAdjactive)
 
 	// generate random first names
