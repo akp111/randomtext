@@ -2,9 +2,12 @@ package randomtext
 
 import (
 	"errors"
+	"math/rand"
 	"strings"
 )
-
+func getRandomNumber() int {
+	return rand.Intn(3)+1
+}
 func RandomWord(length uint, separator string) (string, error) {
 	if length == 0 {
 		return "", errors.New("length cannot be 0")
@@ -12,10 +15,13 @@ func RandomWord(length uint, separator string) (string, error) {
 
 	var words []string
 	for i := 0; i < int(length); i++ {
-		if i%2 == 0 {
+		randomIndex := getRandomNumber();
+		if randomIndex == 1 {
 			words = append(words, Noun())
-		} else {
+		} else if randomIndex == 2{
 			words = append(words, Adjective())
+		} else {
+			words = append(words, Animal())
 		}
 	}
 
