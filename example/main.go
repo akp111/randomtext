@@ -19,6 +19,10 @@ func main(){
 	randomFullName := randomtext.RandomName()
 	fmt.Printf("Random first name: %v\n", randomFullName)
 
+	// random animal name
+	randomAnimal := randomtext.Animal()
+	fmt.Printf("Random animal: %v\n", randomAnimal)
+	
 	// random words
 	randomWord, _ := randomtext.RandomWord(5,"-")
 	fmt.Printf("Random words: %v\n", randomWord)

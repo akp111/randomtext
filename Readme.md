@@ -21,7 +21,7 @@ import (
 
 func main(){
 	// Generate random adjectives
-	randomAdjactive := randomtext.Adjactive()
+	randomAdjactive := randomtext.Adjective()
 	fmt.Printf("Random adjactive: %v\n", randomAdjactive)
 
 	// generate random first names
@@ -32,6 +32,10 @@ func main(){
 	randomFullName := randomtext.RandomName()
 	fmt.Printf("Random first name: %v\n", randomFullName)
 
+	// random animal name
+	randomAnimal := randomtext.Animal()
+	fmt.Printf("Random animal: %v\n", randomAnimal)
+	
 	// random words
 	randomWord, _ := randomtext.RandomWord(5,"-")
 	fmt.Printf("Random words: %v\n", randomWord)
@@ -40,7 +44,7 @@ func main(){
 
 ## Next step:
 
-1. Add animals
+1. ~~Add animals~~
 2. Add colours
 3. Add languages
 4. Add anime
