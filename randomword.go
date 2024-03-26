@@ -5,9 +5,11 @@ import (
 	"math/rand"
 	"strings"
 )
+
 func getRandomNumber() int {
 	return rand.Intn(3)+1
 }
+
 func RandomWord(length uint, separator string) (string, error) {
 	if length == 0 {
 		return "", errors.New("length cannot be 0")
